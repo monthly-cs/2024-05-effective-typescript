@@ -22,7 +22,13 @@ docs/sample 폴더 참고하여 개인별로 폴더 생성
 1. docs/<git_username\>/DIL에 YYYY-MM-DD.md 형식으로 회고 작성
 2. docs/<git_username\>/presentation에 chapter_1.pptx 형식으로 파일 업로드
 
+#### 3-a. Create DIL File
+
 ```tsx
 // ✅ 아래 command를 사용하여 오늘자 파일을 생성할 수 있습니다.
 npm run md
 ```
+
+#### 3-a. Custom DIL File Template
+- 아래 파일을 수정하여 markdown 템플릿을 만들 수 있습니다.
+  - `template/markdown.md`
