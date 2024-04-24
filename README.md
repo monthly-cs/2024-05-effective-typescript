@@ -29,6 +29,6 @@ docs/sample 폴더 참고하여 개인별로 폴더 생성
 npm run md
 ```
 
-#### 3-a. Custom DIL File Template
+#### 3-b. Custom DIL File Template
 - 아래 파일을 수정하여 markdown 템플릿을 만들 수 있습니다.
   - `template/markdown.md`
