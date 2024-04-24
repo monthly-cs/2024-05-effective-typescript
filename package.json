@@ -1,0 +1,19 @@
+{
+  "name": "2024-05-effective-typescript",
+  "version": "1.0.0",
+  "description": "monthly-cs/2024-05/effective typescript",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "md": "node lib/createMd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monthly-cs/2024-05-effective-typescript"
+  },
+  "author": "dusunax",
+  "license": "ISC"
+}
