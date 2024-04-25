@@ -9,7 +9,16 @@
 
 | Name                                          | Contact           |
 | --------------------------------------------- | ----------------- |
-| [두선아/@dusunax](https://github.com/dusunax) | dusunax@gmail.com |
+| [두선아/dusunax](https://github.com/dusunax)         | dusunax@gmail.com      |
+| [이강욱/iamkanguk97](https://github.com/iamkanguk97) | rkddnrdl97@naver.com   |
+| [김가은/paran22](https://github.com/paran22)         | knospe1@naver.com      |
+| [Paige/paigekim29](https://github.com/paigekim29)    | paigekim29@gmail.com   |
+| [윤수현/bmy1320](https://github.com/soohyun-dev)     | bmy1320@gmail.com      |
+| [심성보/shimsungbo](https://github.com/Shim-sim)     | shimdb96@gmail.com     |
+| [최윤지/Yoonji23](https://github.com/Yoonji23)       | grw0723670@naver.com   |
+| [윤창순/changsoon-yun](github.com/changsoon-yun)     | changsoonyun@naver.com |
+| [최락현/chasura416](https://github.com/chasura416)   | chasura413@gmail.com   |
+| ⌛️        |        |
 
 ## 2. Group Rules
 
