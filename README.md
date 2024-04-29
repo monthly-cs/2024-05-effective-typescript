@@ -16,7 +16,7 @@
 | [윤수현/bmy1320](https://github.com/soohyun-dev)     | bmy1320@gmail.com      |
 | [심성보/shimsungbo](https://github.com/Shim-sim)     | shimdb96@gmail.com     |
 | [최윤지/Yoonji23](https://github.com/Yoonji23)       | grw0723670@naver.com   |
-| [윤창순/Changsoon-Yun](github.com/Changsoon-Yun)           |  changsoonyun@naver.com |
+| [윤창순/Changsoon-Yun](https://github.com/Changsoon-Yun)           |  changsoonyun@naver.com |
 | [최락현/chasura416](https://github.com/chasura416)   | chasura413@gmail.com   |
 | [최형욱/w00khyung](https://github.com/w00khyung)     | qpflapffhs76@gmail.com |
 
