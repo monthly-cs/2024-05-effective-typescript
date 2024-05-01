@@ -1,5 +1,9 @@
-# {{username}} {{dateString}}
+# DIL: 이펙티브 타입스크립트
+
+> 스터디: 월간 CS, https://github.com/monthly-cs/2024-05-effective-typescript  
+> 작성일: {{dateString}}  
+> 작성자: {{username}}
 
 ---
 
-## DIL 템플릿입니다.
+##
