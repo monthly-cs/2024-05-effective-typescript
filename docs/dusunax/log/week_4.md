@@ -1,0 +1,88 @@
+# 240602_Memo
+
+- Q. API 어떤 거 쓰나요?
+  - RestAPI 4 / graphQL 2
+- graphQL
+  - 언더패치, 오버패치
+  - null 체크 필요
+  - 플레이그라운드 (graphQL의 스웨거 같은 거)
+- codeGen
+  - https://www.npmjs.com/package/openapi-typescript
+- nextjs
+  - 라우트그룹
+  - 프리패치
+- tanstack Query 토론
+  - https://github.com/suspensive/react
+  - useSuspenseQuery
+    - https://tanstack.com/query/v4/docs/framework/react/community/suspensive-react-query
+    - (컴포넌트별)
+    - 완료
+    - 로딩중 fallback
+    - 에러
+  - const {isInitialLoading, isLoading} = useQuery(~~~, { enabled: false })
+    - isLoading vs isInitialLoading
+    - 커스텀 서스펜스 <<
+- api 응답이 오는 대로 화면에 띄우는 경우
+  - 스켈레톤
+- API 응답
+  - 오류 1분컷, 3분컷
+- 아키텍처
+  - 다해야하는 경우
+  - 담당이 아니라 전혀 알 수 없는 경우
+- 인프라 케이스
+  - AWS
+    - EC2
+    - Fargate
+    - region: 서울이 나오기 전에 개발해서 도쿄인 케이스
+- 순수 프론트 시니어는?
+  - 드물다
+- 백
+  - 데이터
+    - 스노우플레이크, 비주얼라이제이션
+  - API 설계, 쿼리 최적화
+- 퍼블리셔가 있는 회사
+  - html
+    - 컴포넌트 직접 복붙하기
+    - 배포되어 있는 html 바라보게 하는 경우 있음
+  - 경력 퍼블리셔는 계층 구조를 엄청 잘 짠다
+- 모달 패턴
+- Q. 프레임워크 뭐 쓰나요?
+  - 안 씀. 직접 구현
+  - 안 씀. 퍼블리셔/디자이너가 있는 경우
+  - 흔히 쓰는 antd
+  - Shadcn ui
+    - https://ui.shadcn.com/
+  - Radix UI
+    - https://www.radix-ui.com/primitives
+- 마이그레이션
+  - 사내 ERP, 지라
+    - 사내 서비스는 BM이 없다
+  - 보통 1년쯤
+    - 오래된 레거시 마이그레이션은? 배포 후에도 적응 기간 / 피드백
+- Q. 디자인시스템 있나요?
+  - 있음 2 / 없음 4
+  - (디자이너)피그마 - 스케치북 연동
+    - 자동화 적용 후, 리액트 컴포넌트를 약간 수정해서 사용
+- 텍스트 에디터
+  - WYSIWYG
+  - 구현 안하는 서비스 다수
+- MUI 유료가 있음
+  - grid 100개 이상일때의 경우 등
+- Q. 차트 구현?
+  - 직접 구현 시: react-chartjs
+  - BI툴
+    - 태블로 https://www.tableau.com/ko-kr
+    - 리툴 https://saas.relate.kr/saas/retool/r/rec5Dip8VgPW8mMTN
+- Codegen 타입
+  - 옵셔널한 DTO 만듦? 만듦!
+  - 필수값과 옵셔널 (옵셔널이 기본인데 백에서 필수값으로 설정하는 값이 필수)
+  - ORM에 따라서 빈배열 vs undefined 처리
+- 자바공화국이다.
+  - node
+- 함수 매개변수
+  - named parameter {}
+  - 그냥 매개변수 ()
+- 그룹핑
+  - util 클래스
+    - 생성자 없는 클래스, 메소드 포함
+  - userApis().getUser(), userApis().patchUser(user)
