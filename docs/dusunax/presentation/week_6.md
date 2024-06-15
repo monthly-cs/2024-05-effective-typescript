@@ -94,7 +94,7 @@ class ResetButton {
 
 **Prefer Conditional Types to Overload Signatures**
 
-## 아이템 50: 오버로딩 타입보다는 조건부 타입을 사용하기
+# 아이템 50: 오버로딩 타입보다는 조건부 타입을 사용하기
 
 ### 함수 오버로딩
 
@@ -167,7 +167,7 @@ function double(x: string | number) {
 
 **Mirror Types to Sever Dependencies**
 
-## 아이템 51: 의존성 분리를 위해 미러 타입 사용하기
+# 아이템 51: 의존성 분리를 위해 미러 타입 사용하기
 
 라이브러리나 모듈 개발 시, 타입 의존성을 관리하는 방법 중 하나로 **미러 타입**을 사용하는 것이 좋습니다. 프로젝트의 외부 의존성을 줄이고, 필요하지 않은 타입 선언의 전이적 의존성(transitive type dependencies)을 피할 수 있습니다.
 
@@ -192,7 +192,7 @@ function double(x: string | number) {
 
 **Write Tests for Your Types**
 
-## 아이템 52: 테스팅 타입의 함정에 주의하기
+# 아이템 52: 테스팅 타입의 함정에 주의하기
 
 프로젝트를 공개할 때, 코드뿐만 아니라 타입에 대한 테스트 코드도 작성하는 것이 중요합니다. 이는 코드의 안정성을 보장하고 타입 시스템의 일관성을 유지하는 데 도움이 됩니다.
 
