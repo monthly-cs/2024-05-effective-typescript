@@ -1,0 +1,71 @@
+# 240609_Memo
+
+> 주희님, 강욱님, 형욱님, 수현님, 성보님, 두선아
+
+---
+
+- 디버깅: 브레이크 포인트
+  - 브라우저
+    - 리액트 내부코드에서 걸림
+    - 이벤트 등의 경우에 브레이크 포인트가 제대로 안 잡힘
+    - JS, JQuery에 경우 효과적
+  - IDE: Run and Debug
+    - 스프링, 백엔드
+- 익숙하게 쓰는 console을 더 잘 쓰자. assert이나 debug 레벨 설정
+- 상태 관리 디버깅
+  - recoil
+  - 주스탄드
+  - context
+    - post
+      - 서스펜스쿼리 & <Suspense>
+    - auth
+- class
+  - 프라이빗 필드
+    - getter & setter
+- import을 안되게?
+  - 린트
+  - shareModal
+    - shareModalPopup
+      - shareModalPopupButton
+  - protected
+- 번역
+  - 파파고
+  - DeepL
+- enum 사용
+  - 성능 저하
+- keyof의 구조적 단점
+  - 외부 api의 경우 진짜 키가 뭐가 들어올지 모름
+  - 내부 코드 ⇒ 굳이 단점?
+- 모노레포
+  - 타입 모듈
+    - 서버
+    - 클라이언트
+- 타입
+  - 스웨거 코드젠
+  - 네스티아-nest 라이브러리 / 유효성 검사 성능 굿
+- 사이드 vs 프로덕션 환경
+  - 팀을 설득할 수 있는지
+- PR 코드 리뷰
+  - reviewer
+    - 프로젝트 팀 내
+    - 랜덤 선택
+    - 추천 리뷰어 중 선택
+  - 코드 리뷰 제한 시간
+    - 약 24시간
+  - 리뷰 기준
+    - 팀 컨벤션
+    - 컴포넌트 코드 사이즈
+    - 로직 위치
+    - 브랜치 이동 후 동작 확인
+    - 빌드 해보고 승인하기
+    - 허스키는 시간 걸림
+  - 사이즈 큰 코멘트
+    - 코멘트에 대한 이슈 추가 후 PR에서 브랜치 따서 작업
+      - feature/aaaa
+      - feature/aaaa/bbbb
+- 빗버킷
+  - 마크다운 안됨
+- ORM
+  - prisma
+  - typeORM
+  - 시퀄라이즈
